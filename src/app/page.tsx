@@ -1,5 +1,4 @@
 import Passcode from '@/components/Passcode';
-import Image from "next/image";
 
 export default function Home() {
   return (
