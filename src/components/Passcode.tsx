@@ -48,7 +48,7 @@ export default function Passcode() {
           <PasscodeCircleButton key={index} handleKeyClick={handleKeyClick} value={(index + 1).toString()}>{index + 1}</PasscodeCircleButton>
         ))}
           <PasscodeCircleButton handleKeyClick={handleDelete} value={"&#60;"}>&#60;</PasscodeCircleButton>
-          <PasscodeCircleButton handleKeyClick={handleDelete} value={"0"}>0</PasscodeCircleButton>          
+          <PasscodeCircleButton handleKeyClick={handleKeyClick} value={"0"}>0</PasscodeCircleButton>          
       </div>
     </div>
   )
